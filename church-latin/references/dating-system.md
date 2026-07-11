@@ -174,26 +174,49 @@ runs from Gregory I (590) onward.
 ## 5. Regnal Year (Secular Rulers)
 
 Charters, writs, and notarial instruments — especially English royal documents — are dated by the
-**regnal year** of a king or emperor rather than (or alongside) the AD year:
+**regnal year** of a king (*anno regni …*) or emperor (*anno imperii …*) rather than (or alongside)
+the AD year:
 
 *anno regni regis nostri Henrici tertii decimo septimo* — "in the seventeenth year of the reign of
 our king Henry III"
+
+The clause appears in two dateline forms, both meaning the same thing:
+- **Genitive:** *anno regni regis Henrici tertii decimo septimo* ("in the seventeenth year of the
+  reign of king Henry III")
+- **Ablative absolute:** *regnante Henrico tertio rege Angliae* ("Henry III being king of England
+  reigning") — here the year is fixed by whatever regnal figure accompanies it.
 
 **Treat regnal years as convertible only with care — flag uncertainty rather than assert a bare AD year.**
 
 - *Counting varies by realm and chancery.* English regnal years run from the **day of accession**
   (for Henry III, 28 October; for Edward I, 20 November), so a single regnal year straddles two
   calendar years and you must know the accession day to resolve which. French, Imperial, and Scottish
-  practice differs, and some chanceries counted from **coronation**, not accession.
+  practice differs, and some chanceries counted from **coronation**, not accession. The Holy Roman
+  Empire kept two parallel counts — the royal year (*Rex Romanorum*, from the German kingship) and the
+  imperial year (*anno imperii*, from the imperial coronation) — which do not coincide.
 - *Do not assume January–December.* Because the year pivots on the accession day, a document dated
   "in the 17th year" needs both the ruler's accession date and the document's month/day before an AD
   year is safe.
+- *Identify the realm before the ruler.* A name-and-number can belong to more than one realm
+  (*Caroli quarti* = Charles IV of France, acc. 1322, **or** Charles IV of the Empire, imperial year
+  from 1355) — the reign clause must name or imply the realm, or the year is unresolvable.
+- *King John of England is a special case.* His regnal years ran **Ascension Day to Ascension Day**
+  (a moveable feast), so they do not map cleanly onto AD years; treat any single AD equivalent for a
+  clause dated by John's reign as **approximate** and check it against a regnal-year hand-list.
 - For English material, the standard resolution tool is **C. R. Cheney (rev. Michael Jones),
   *A Handbook of Dates for Students of British History*** — cite it rather than guessing.
 
-*(Automated regnal-year conversion is not yet available in the companion tooling; resolve these by
-hand and state the assumption — accession vs. coronation, and the calendar year the regnal year
-opens in.)*
+*(The regnal years of these realms are now resolvable — by the method above, and automatically by the
+companion date tool, which converts both *anno regni …* (kings) and *anno imperii …* (emperors) for
+England and the Lordship of Ireland (which used English regnal years), France, the Holy Roman Empire
+(both the royal Rex Romanorum count and the imperial count), and Scotland, c.1100–1500 (~80 monarchs).
+It parses both the genitive and ablative-absolute datelines, pins the AD year from the ruler's
+accession/regnal-start date — noting the accession-vs-coronation basis — and declines rather than
+guesses when the monarch is not uniquely identified (prompting for the realm on an ambiguous
+name+number, or reporting when the reign clause names no monarch); it also flags John of England as
+VARIABLE per the note above. Treat the tool as evidence to weigh, not gospel: still verify the
+accession-vs-coronation basis and which calendar year the regnal year opens in, and hand-check John's
+years.)*
 
 ---
 
