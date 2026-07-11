@@ -120,7 +120,7 @@ Apply in this order (silently in Literal and Flowing modes; report normalization
    - h insertion/omission: *michi* → *mihi*; *nichil* → *nihil*; *habundare* → *abundare*
    - j/v: treat j as consonantal i (*ejus* → *eius*); v as u where appropriate (*vt* → *ut*)
 
-2. **Abbreviation expansion** — expand before translating; mark uncertain expansions in notes
+2. **Abbreviation expansion** — expand before translating; mark uncertain expansions in notes. For the mechanics of scribal abbreviation (suspension, contraction, macron/tilde for omitted m/n, the -us/-rum/-bus signs, per/pro/prae and con-/cum- signs, tironian et, nomina sacra), a table of common expansions, and the discipline of flagging context-dependent sigla, read `references/abbreviations-paleography.md` (Cappelli is the standard authority)
 
 3. **Input quality assessment** — if triage identifies OCR, HTR, or manuscript transcription, assess plausibility of each word before expanding; flag anomalous readings rather than silently accepting them
 
@@ -185,6 +185,22 @@ For full consequence-of-error notes and an extended glossary, see `references/fa
 ### Dating
 
 For dating formulas (Roman calendar, indiction cycle, liturgical feast-day dating, pontifical year, Julian/Gregorian transitions), read `references/dating-system.md`.
+
+### Document Structure and Formulae
+
+Charters, papal bulls, episcopal acts, and notarial instruments are formularies built from named, ordered parts (protocol, text, eschatocol), each filled with fixed formulae that must be rendered idiomatically, not word-for-word (*servus servorum Dei*, *Noverint universi*, *Ad perpetuam rei memoriam*, *In cuius rei testimonium*). To parse the anatomy of a diplomatic document and render its stock phrases, read `references/formulae-and-document-structure.md`.
+
+### Money, Weights, and Measures
+
+Account rolls, benefice valuations, papal *camera* records, and rentals use the £sd money-of-account system (libra/solidus/denarius, 1:20:240), named coins (marca, florenus, ducatus, scutum, grossus), and land/weight/capacity units (modius, sextarius, uncia, iugerum, carrucata, virgata, hida, bovata) written in medieval Roman numerals. Beware *libra* = pound-money vs. pound-weight and *talentum*. To parse a sum or a valuation line, read `references/money-weights-measures.md`.
+
+### Personal Names
+
+Names decline (recover the nominative under a genitive/dative form), forenames are rendered to the person's regional vernacular (*Iacobus* → James/Jaime/Giacomo by region), and bynames, *dictus*/*alias*/*vulgariter nuncupatus* tags, Latinized surnames, and names-in-religion each have their own handling. To render people correctly without over-translating fixed surnames, read `references/personal-names.md`.
+
+### Scripture Citations and Psalm Numbering
+
+Ecclesiastical texts cite the **Vulgate** by default, whose psalm numbers (Vulgate 22 = modern 23), verse numbers (superscription counted), and book names (1–4 Kings = 1–2 Samuel + 1–2 Kings; Paralipomenon = Chronicles; Ecclesiasticus ≠ Ecclesiastes) diverge from modern Bibles. Douay-Rheims follows the Vulgate exactly. To resolve a scriptural or psalm citation, read `references/psalm-and-versification.md`.
 
 ### Imprints and Colophons
 
@@ -300,5 +316,10 @@ Read these when triage identifies the relevant period, genre, or document type:
 - **`references/genre-guide.md`** — scholastic (quaestio structure, dangerous terminological pairs), hagiographic (six genre types, virtus warning), canonical/legal, curial/papal, epistolary, liturgical, epigraphic; worked Vulgate allusion examples
 - **`references/dating-system.md`** — Roman calendar (Kalends/Nones/Ides), indiction cycle, liturgical feast-day table, pontifical year, secular regnal years, Julian/Gregorian transition rules, French Revolutionary calendar
 - **`references/imprint-colophon-guide.md`** — reading the publication statement of printed books: verbs of printing/selling, agent roles, financing formulas (apud/sumptibus/impensis), shop-and-sign vocabulary, place-in-locative, worked examples
+- **`references/formulae-and-document-structure.md`** — the anatomy of a charter, bull, or notarial act (protocol/text/eschatocol and their parts) and a table of high-frequency stock formulae with idiomatic English renderings
+- **`references/money-weights-measures.md`** — the £sd money-of-account system, named coins, papal camera money, weights/capacity/land measures, and medieval Roman-numeral forms; parsing account and valuation lines
+- **`references/personal-names.md`** — recovering the nominative of a declined name, rendering forenames to the regional vernacular, bynames and naming tags (dictus/alias/vulgariter nuncupatus), Latinized surnames, and names-in-religion
+- **`references/psalm-and-versification.md`** — Vulgate vs. modern psalm numbering (the ±1 offset and the join/split points), Vulgate verse-numbering, and Vulgate book-name conventions; resolving Scripture citations
+- **`references/abbreviations-paleography.md`** — the mechanics of scribal abbreviation (suspension, contraction, brevigraphs, nomina sacra), a table of common expansions, and the discipline of expanding before translating and flagging uncertain sigla (Cappelli)
 - **`references/reference-hierarchy.md`** — which lexicon to consult by period and genre; decision rules for Cappelli, Mohrmann, Blaise, Du Cange, DMLBS, DMLCS, Souter, TLL, Niermeyer, Forcellini, Stelten, Bacci, Stotz, and others
 - **`references/false-friends.md`** — extended glossary of ecclesiastical Latin false friends and technical terms beyond the Top 20
