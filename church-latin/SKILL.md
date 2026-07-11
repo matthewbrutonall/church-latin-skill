@@ -186,6 +186,10 @@ For full consequence-of-error notes and an extended glossary, see `references/fa
 
 For dating formulas (Roman calendar, indiction cycle, liturgical feast-day dating, pontifical year, Julian/Gregorian transitions), read `references/dating-system.md`.
 
+### Imprints and Colophons
+
+For printed material (breviaries, missals, conciliar decrees, patristic and theological editions), the publication statement uses a compact formulaic Latin with several dangerous false friends — `apud` = "at the shop of" (not "among/according to"), `cura` = "edited by", and the place of printing in the locative (`Venetiis`, `Lugduni`). For parsing imprints/colophons — verbs of printing, agent roles, financing formulas, shop-and-sign vocabulary, and worked examples — read `references/imprint-colophon-guide.md`.
+
 ### Source Criticism
 
 Any characterization of papal, conciliar, or curial Latin as "obtuse," "dense," or stylistically deficient must be assessed relative to the norms of that genre and period — not against the personal register preferences or possible ideological biases of an external commentator. Note difficulty only when measured against comparable documents of the same type.
@@ -294,6 +298,7 @@ Read these when triage identifies the relevant period, genre, or document type:
 
 - **`references/period-guide.md`** — lexical and stylistic guidance for each period from patristic through modern; key authors, characteristic features, and period-specific lexical warnings
 - **`references/genre-guide.md`** — scholastic (quaestio structure, dangerous terminological pairs), hagiographic (six genre types, virtus warning), canonical/legal, curial/papal, epistolary, liturgical, epigraphic; worked Vulgate allusion examples
-- **`references/dating-system.md`** — Roman calendar (Kalends/Nones/Ides), indiction cycle, liturgical feast-day table, pontifical year, Julian/Gregorian transition rules, French Revolutionary calendar
+- **`references/dating-system.md`** — Roman calendar (Kalends/Nones/Ides), indiction cycle, liturgical feast-day table, pontifical year, secular regnal years, Julian/Gregorian transition rules, French Revolutionary calendar
+- **`references/imprint-colophon-guide.md`** — reading the publication statement of printed books: verbs of printing/selling, agent roles, financing formulas (apud/sumptibus/impensis), shop-and-sign vocabulary, place-in-locative, worked examples
 - **`references/reference-hierarchy.md`** — which lexicon to consult by period and genre; decision rules for Cappelli, Mohrmann, Blaise, Du Cange, DMLBS, DMLCS, Souter, TLL, Niermeyer, Forcellini, Stelten, Bacci, Stotz, and others
 - **`references/false-friends.md`** — extended glossary of ecclesiastical Latin false friends and technical terms beyond the Top 20

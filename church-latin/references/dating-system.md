@@ -117,9 +117,44 @@ Many papal and curial documents add the regnal year of the reigning pope:
 
 *pontificatus nostri anno N* — "in the Nth year of our pontificate"
 
-To convert: identify the pope's accession date, add N–1 years. Place the Gregorian calendar year in square brackets.
+The formula appears in several word orders, all equivalent — do not expect a fixed template:
+- *pontificatus nostri anno octavo* ("in the eighth year of our pontificate")
+- *anno pontificatus domini Bonifacii papae VIII octavo*
+- *pontificatus domini nostri [Name] divina providentia papae [N], anno [N]*
 
-**Papal accession dates (selected):**
+The reigning pope is frequently named only once, in the document's opening *intitulatio*
+(*Bonifacius episcopus servus servorum Dei…*), and in an oblique case (*Bonifacii*, genitive).
+Read the whole document for the pope, not just the dating clause.
+
+**Medieval and Renaissance pontifical years are fully in scope** — they are not an unsupported
+edge case. To convert: identify the pope's accession, add N–1 years, then check the month/day
+against the accession date to decide which of the two candidate AD years applies.
+
+**Two cautions for the critical reader:**
+- *Election vs. coronation.* Curial practice generally reckoned pontifical years from the
+  **coronation** (or consecration, if the pope-elect was not yet a bishop), which fell days to
+  weeks after the election. Near a year boundary this can shift the AD year by one. The dates below
+  are **election** dates; flag the coronation offset when precision matters.
+- *Day within the year.* Pontifical year N spans two calendar years; the exact AD year depends on
+  whether the document's day falls before or after the anniversary of accession.
+
+**High-frequency medieval / Renaissance popes (election dates):**
+
+| Pope | Election | Pope | Election |
+|---|---|---|---|
+| Innocent III | 8 Jan 1198 | John XXII | 7 Aug 1316 |
+| Honorius III | 18 Jul 1216 | Martin V | 11 Nov 1417 |
+| Gregory IX | 19 Mar 1227 | Eugene IV | 3 Mar 1431 |
+| Innocent IV | 25 Jun 1243 | Nicholas V | 6 Mar 1447 |
+| Celestine V | 5 Jul 1294 | Pius II | 19 Aug 1458 |
+| Boniface VIII | 24 Dec 1294 | Julius II | 1 Nov 1503 |
+| Clement V | 5 Jun 1305 | Leo X | 9 Mar 1513 |
+
+*Worked example.* *Datum … XIV kalendas decembris, pontificatus … Bonifacii papae VIII anno octavo.*
+Boniface VIII acceded 24 Dec 1294; anno octavo runs 24 Dec 1301 – 23 Dec 1302; XIV kal. Dec. = 18
+November, which falls before the 24 December anniversary → **18 November 1302 [1302]**.
+
+**Papal accession dates (modern, selected):**
 
 | Pope | Accession | Reigned until |
 |---|---|---|
@@ -131,9 +166,38 @@ To convert: identify the pope's accession date, add N–1 years. Place the Grego
 | Pius XII | 2 March 1939 | 9 October 1958 |
 | John XXIII | 28 October 1958 | 3 June 1963 |
 
+For popes not listed here, look up the election/coronation date rather than guessing; a full list
+runs from Gregory I (590) onward.
+
 ---
 
-## 5. Ab Incarnatione / Anno Domini
+## 5. Regnal Year (Secular Rulers)
+
+Charters, writs, and notarial instruments — especially English royal documents — are dated by the
+**regnal year** of a king or emperor rather than (or alongside) the AD year:
+
+*anno regni regis nostri Henrici tertii decimo septimo* — "in the seventeenth year of the reign of
+our king Henry III"
+
+**Treat regnal years as convertible only with care — flag uncertainty rather than assert a bare AD year.**
+
+- *Counting varies by realm and chancery.* English regnal years run from the **day of accession**
+  (for Henry III, 28 October; for Edward I, 20 November), so a single regnal year straddles two
+  calendar years and you must know the accession day to resolve which. French, Imperial, and Scottish
+  practice differs, and some chanceries counted from **coronation**, not accession.
+- *Do not assume January–December.* Because the year pivots on the accession day, a document dated
+  "in the 17th year" needs both the ruler's accession date and the document's month/day before an AD
+  year is safe.
+- For English material, the standard resolution tool is **C. R. Cheney (rev. Michael Jones),
+  *A Handbook of Dates for Students of British History*** — cite it rather than guessing.
+
+*(Automated regnal-year conversion is not yet available in the companion tooling; resolve these by
+hand and state the assumption — accession vs. coronation, and the calendar year the regnal year
+opens in.)*
+
+---
+
+## 6. Ab Incarnatione / Anno Domini
 
 Most medieval documents use *Anno ab Incarnatione Domini* (Year of the Incarnation) or *Anno Domini* (AD). Both are effectively the same as the modern Common Era, but:
 
@@ -154,7 +218,7 @@ When provenance is Italian (especially Florentine or Tuscan) or English before 1
 
 ---
 
-## 6. Julian and Gregorian Calendars
+## 7. Julian and Gregorian Calendars
 
 The Gregorian calendar reform was promulgated in October 1582. Adoption was by polity and was not simultaneous even among Catholic territories — for archival work, the territory of the document determines which calendar is in force.
 
@@ -183,7 +247,7 @@ When the Julian/Gregorian distinction matters (cross-confessional correspondence
 
 ---
 
-## 7. French Revolutionary Calendar
+## 8. French Revolutionary Calendar
 
 Occasionally appears in documents from France or French-influenced territories (c.1792–1805). 12 months of 30 days + 5 epagomenal days.
 
