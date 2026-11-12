@@ -2,9 +2,19 @@
 
 ![Ecclesiastical manuscript beside reference books and an annotated translation](assets/church-latin-skill.png)
 
-A Claude skill for translating ecclesiastical Latin across all periods and genres, from the patristic period (c.200 AD) through the mid-twentieth century (reference files cover to c.1960).
+Church records often use Latin words differently from the Latin taught in classical textbooks. This **agent skill** guides a translation assistant through Church Latin: it identifies the kind of document, translates it with that context in mind, and checks its own first draft against the source.
 
-## Install with your AI agent
+For example, *conversus* in a monastic record may mean **lay brother**, rather than someone who has converted to a faith. The skill asks the agent to consider the period and document type before choosing a meaning. This is an illustrative example; the surrounding text still determines the translation.
+
+It is intended for archivists, historians, theologians, students, and others reading ecclesiastical documents from roughly AD 200 to 1960. Later documents can also be approached, with care about changing vocabulary. You supply the Latin text; the agent returns a translation and, by default, brief notes on consequential choices.
+
+## What to expect
+
+The agent first identifies the likely period, genre, purpose, and quality of the text. It then translates and checks the result for missed words, dates, formal terms, and possible biblical allusions. You can request a close **Literal** version, a readable **Flowing** version, the default **Annotated** version, or a more detailed **Scholarly** version.
+
+A translation still needs human checking when a reading matters for publication, legal or canonical interpretation, or a critical edition. Damaged manuscripts, uncertain abbreviations, and OCR mistakes may require a specialist to inspect the original. The skill provides guidance and reference notes; it does not include the specialist dictionaries mentioned in those notes.
+
+## Set it up with your AI agent
 
 Copy and paste this into your agent:
 
@@ -12,21 +22,21 @@ Copy and paste this into your agent:
 Install the Church Latin skill from https://github.com/matthewbrutonall/church-latin-skill using your agent's supported skill installation method. Use the packaged skill or keep the complete `church-latin` directory, including its `references`, together. Confirm the skill is available and tell me how to invoke it. Do not translate anything yet.
 ```
 
----
+Once installed, you could ask: “Translate this chapter act using the Church Latin skill. Use Annotated mode and mark any uncertain abbreviations.”
 
-## The Problem
+## Why context matters
 
-Generic AI Latin translation defaults to classical (Ciceronian) meanings. Church Latin is not classical Latin, and translating it as if it were produces errors that range from awkward to seriously misleading.
+Church Latin spans many centuries and kinds of writing. A word used in a saint's life can mean something different in a church law document. Applying a classical meaning without checking the context can make a fluent translation misleading.
 
 *Religio* in a canonical document does not mean "religion" — it means a religious order. *Conversus* does not mean "convert" — it means a lay brother. *Virtutes* in a hagiographic text does not mean "virtues" — it means miracles. *Civitas* in an early Irish text does not mean "city" — it means a monastery.
 
-These are not edge cases. They are the normal vocabulary of eighteen centuries of Church Latin, and any translation that misses them produces a document that is factually wrong.
+The examples below show why the document's setting matters.
 
 ---
 
-## Before and After
+## Translation examples
 
-We tested the same Latin passages across multiple leading AI models prompted as classical Latin scholars, without specialist ecclesiastical guidance. This is precisely the failure mode the skill is designed to correct — a classically trained translator applying the wrong lexical register to Church Latin. The failures below were consistent across models.
+These examples contrast a misleading literal reading with a context-aware translation. They illustrate the skill's intended method; they are not a measured comparison of AI models.
 
 ---
 
@@ -91,11 +101,9 @@ This skill trains Claude to identify what kind of Latin it is dealing with **bef
 
 ---
 
-## Installation
+## Installation files
 
-```
-claude skill install church-latin.skill
-```
+The packaged `church-latin.skill` file and the complete `church-latin/` directory are both in this repository. Use your agent's supported skill installation method, and keep the reference files with `SKILL.md`.
 
 ---
 
