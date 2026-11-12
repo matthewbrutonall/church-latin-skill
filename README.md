@@ -4,6 +4,14 @@
 
 A Claude skill for translating ecclesiastical Latin across all periods and genres, from the patristic period (c.200 AD) through the mid-twentieth century (reference files cover to c.1960).
 
+## Install with your AI agent
+
+Copy and paste this into your agent:
+
+```text
+Install the Church Latin skill from https://github.com/matthewbrutonall/church-latin-skill using your agent's supported skill installation method. Use the packaged skill or keep the complete `church-latin` directory, including its `references`, together. Confirm the skill is available and tell me how to invoke it. Do not translate anything yet.
+```
+
 ---
 
 ## The Problem
