@@ -1,5 +1,7 @@
 # Church Latin Translator — Claude Skill
 
+![Ecclesiastical manuscript beside reference books and an annotated translation](assets/church-latin-skill.png)
+
 A Claude skill for translating ecclesiastical Latin across all periods and genres, from the patristic period (c.200 AD) through the mid-twentieth century (reference files cover to c.1960).
 
 ---
