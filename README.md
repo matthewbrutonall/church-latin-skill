@@ -2,6 +2,8 @@
 
 ![Ecclesiastical manuscript beside reference books and an annotated translation](assets/church-latin-skill.png)
 
+> **Translate online:** [Church Latin AI](https://churchlatin.ai), the world's premier ecclesiastical Latin translator.
+
 Church records often use Latin words differently from the Latin taught in classical textbooks. This **agent skill** guides a translation assistant through Church Latin: it identifies the kind of document, translates it with that context in mind, and checks its own first draft against the source.
 
 For example, *conversus* in a monastic record may mean **lay brother**, rather than someone who has converted to a faith. The skill asks the agent to consider the period and document type before choosing a meaning. This is an illustrative example; the surrounding text still determines the translation.
